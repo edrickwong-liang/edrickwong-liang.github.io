@@ -88,13 +88,13 @@ video {
 }
 
 img {
-	width: 100%;
-	display: block;
+    width: 100%;
+    display: block;
 }
 
 body {
     background-color: rgb(250, 250, 250);
-    color: rgb(55, 55 , 55);
+    color: rgb(55, 55, 55);
     line-height: 140%;
     font-family: sans-serif;
 }
@@ -128,7 +128,7 @@ h3 {
     text-transform: uppercase;
     letter-spacing: .25rem;
     /*Just an extra tracking for bold uppercase letters. Try 0.1em */
-    border-top: .2rem solid rgb(160, 60, 50);
+    border-top: 3px solid rgb(160, 60, 50);
 }
 
 h4 {
