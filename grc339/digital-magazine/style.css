@@ -1,0 +1,136 @@
+/*CSS Document*/
+
+html, body, div, applet, object, iframe, h1, h2, h3, h4, h5, h6,
+p, blockquote, pre, a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong,
+sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend, table, caption, tbody, tfoot,
+thead, tr, th, td, article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup, menu, nav, output,
+ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+}
+
+/* Base layout */
+body {
+    max-width: 40rem;
+    margin: 0 auto;
+}
+
+img {
+    width: 100%;
+    display: block;
+}
+
+h1 {
+    max-width: 10rem;
+}
+
+h2 {
+    font-family: serif;
+    font-weight: bold;
+    color: rgb(92, 119, 150);
+    margin-left: 0.5rem;
+}
+
+p {
+    font-family: sans-serif;
+    margin: 0 0.5rem;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+/* Sectioning */
+header,
+nav {
+    margin: 1rem 0.5rem;
+}
+
+section {
+    margin: 1rem 0 2rem;
+}
+
+footer {
+    padding: 0.75rem 0.5rem;
+    background-color: rgb(92, 119, 150);
+    color: rgb(238, 238, 238);
+}
+
+aside {
+    background-color: rgb(203, 207, 255);
+    padding: 0.5rem;
+}
+
+/* Typography */
+nav li,
+nav a {
+    color: rgb(92, 119, 150);
+    text-decoration: none;
+    font-weight: bold;
+    font-family: sans-serif;
+    list-style: none;
+}
+
+figcaption {
+    margin: 0.25rem 0 1rem 0.5rem;
+    color: rgb(85, 85, 85);
+    font-style: italic;
+    font-family: sans-serif;
+}
+
+/* Heading sizes by role */
+.mainstory h2 {
+    font-size: 3em;
+}
+
+.secondary h2 {
+    font-size: 1.5em;
+}
+
+.tertiary h2 {
+    font-size: 1em;
+    border-top: 1.5px solid rgb(92, 119, 150);
+    padding-top: 0.25em;
+}
+
+article h2 {
+    margin: 1rem 0 0.5rem;
+    font-size: 2em;
+}
+
+article p {
+    margin-bottom: 1.25rem;
+}
+
+aside h2 {
+    font-size: 1.5em;
+}
+
+/* Media Query */
+@media screen and (min-width: 40em) {
+    header {
+        margin: 1rem 0;
+    }
+
+    nav {
+        margin: 1rem 0;
+    }
+
+    nav li {
+        display: inline;
+        margin-right: 1rem;
+    }
+
+    figcaption,
+    h2,
+    p {
+        margin-left: 0;
+    }
+}
