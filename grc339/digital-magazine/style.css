@@ -15,6 +15,10 @@ ruby, section, summary, time, mark, audio, video {
     font: inherit;
 }
 
+body {
+    background-color: rgb(255, 255, 220);
+}
+
 /* Base layout */
 div.container, div.home-container {
     max-width: 40rem;
@@ -27,19 +31,23 @@ img {
 }
 
 h1 {
-    max-width: 10rem;
+    max-width: 30rem;
 }
 
 h2 {
-    font-family: serif;
+    font-family: "blippo-mn", sans-serif;
+    font-weight: 900;
+    font-style: normal;
     font-weight: bold;
-    color: rgb(92, 119, 150);
+    color: rgb(77, 129, 110);
     margin-left: 0.5rem;
 }
 
 p {
-    font-family: sans-serif;
-    margin: 0 0.5rem;
+    font-family: "p22-mackinac-pro", serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: .5rem 1rem 2rem 0rem;
 }
 
 a {
@@ -52,6 +60,11 @@ header,
 nav {
     margin: 1rem 0.5rem;
 }
+
+nav {
+    background-color:rgb(8, 65, 92);
+    padding: 1rem;
+}
 /* 
 section {
     margin: 1rem 0 2rem;
@@ -59,23 +72,24 @@ section {
 
 footer {
     padding: 0.75rem 0.5rem;
-    background-color: rgb(92, 119, 150);
+    background-color: rgb(77, 129, 110);
     color: rgb(238, 238, 238);
     box-sizing: border-box;
 }
 
 aside {
-    background-color: rgb(203, 207, 255);
     padding: 0.5rem;
 }
 
 /* Typography */
 nav li,
 nav a {
-    color: rgb(92, 119, 150);
+    color: rgb(255, 255, 255);
     text-decoration: none;
     font-weight: bold;
-    font-family: sans-serif;
+    font-family: "p22-mackinac-pro", serif;
+    font-weight: 600;
+    font-style: normal;
     list-style: none;
 }
 
@@ -83,7 +97,9 @@ figcaption {
     margin: 0.25rem 0 1rem 0.5rem;
     color: rgb(85, 85, 85);
     font-style: italic;
-    font-family: sans-serif;
+    font-family: "p22-mackinac-pro", serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 /* Heading sizes by role */
@@ -92,12 +108,12 @@ figcaption {
 }
 
 .secondary h2 {
-    font-size: 1.5em;
+    font-size: 2em;
 }
 
 .tertiary h2 {
-    font-size: 1em;
-    border-top: 1.5px solid rgb(92, 119, 150);
+    font-size: 1.5em;
+    border-top: 1.5px solid rgb(77, 129, 110);
     padding-top: 0.25em;
 }
 
@@ -219,7 +235,6 @@ aside h2 {
     section.secondary a figure {
         flex: 1 0 12em;
         display: flex;
-        background-color: yellow;
     }
     
     section.secondary a figure img {
